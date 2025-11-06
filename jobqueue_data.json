@@ -1,0 +1,159 @@
+{
+  "jobs": {
+    "job_1762405851_3045": {
+      "id": "job_1762405851_3045",
+      "command": "echo 'Hello World - Success'",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:10:51.377317",
+      "updated_at": "2025-11-06T05:17:29.362401",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762405858_3931": {
+      "id": "job_1762405858_3931",
+      "command": "invalid_command_123",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:10:58.344533",
+      "updated_at": "2025-11-06T05:24:23.372420",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762405863_889": {
+      "id": "job_1762405863_889",
+      "command": "'{id:quick-fail,command:nonexistent_cmd,max_retries:1}'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:11:03.755132",
+      "updated_at": "2025-11-06T05:11:03.755132",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762405930_7465": {
+      "id": "job_1762405930_7465",
+      "command": "echo 'Hello World - Success'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:12:10.556721",
+      "updated_at": "2025-11-06T05:12:10.556721",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762405935_7794": {
+      "id": "job_1762405935_7794",
+      "command": "invalid_command_123",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:12:15.546247",
+      "updated_at": "2025-11-06T05:12:15.546247",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762405940_6668": {
+      "id": "job_1762405940_6668",
+      "command": "'{id:quick-fail,command:nonexistent_cmd,max_retries:1}'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:12:20.760488",
+      "updated_at": "2025-11-06T05:12:20.760488",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406020_5626": {
+      "id": "job_1762406020_5626",
+      "command": "echo 'Hello World - Success'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:13:40.804861",
+      "updated_at": "2025-11-06T05:13:40.804861",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406026_1339": {
+      "id": "job_1762406026_1339",
+      "command": "invalid_command_123",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:13:46.117159",
+      "updated_at": "2025-11-06T05:13:46.117159",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406030_7068": {
+      "id": "job_1762406030_7068",
+      "command": "'{id:quick-fail,command:nonexistent_cmd,max_retries:1}'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:13:50.923843",
+      "updated_at": "2025-11-06T05:13:50.923843",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406096_8985": {
+      "id": "job_1762406096_8985",
+      "command": "echo 'Test Job 1'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:14:56.646414",
+      "updated_at": "2025-11-06T05:14:56.646414",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406102_1299": {
+      "id": "job_1762406102_1299",
+      "command": "this_command_will_fail_999",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:15:02.637177",
+      "updated_at": "2025-11-06T05:15:02.637177",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406357_7727": {
+      "id": "job_1762406357_7727",
+      "command": "echo 'Success Job 1'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:19:17.860264",
+      "updated_at": "2025-11-06T05:19:17.860264",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406365_6890": {
+      "id": "job_1762406365_6890",
+      "command": "fail_command_123",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:19:25.511233",
+      "updated_at": "2025-11-06T05:19:25.511233",
+      "last_error": null,
+      "next_retry_at": null
+    },
+    "job_1762406370_9054": {
+      "id": "job_1762406370_9054",
+      "command": "'{id:dlq-test,command:nonexistent_command,max_retries:1}'",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-06T05:19:30.120875",
+      "updated_at": "2025-11-06T05:19:30.120875",
+      "last_error": null,
+      "next_retry_at": null
+    }
+  },
+  "config": {}
+}
